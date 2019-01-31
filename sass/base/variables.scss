@@ -1,17 +1,7 @@
-$primaryGrad {
-  background: linear-gradient(#efefbb, #d4d3dd);
-}
-$secondaryGrad {
-  background: linear-gradient(#ffeeee, #ddefbb);
-}
-$focusGrad {
-  background: linear-gradient(#f857a6, #ff5858);
-}
-$header {
-  font-family: "Noto Serif SC", serif;
-  font-size: 2em;
-}
-$para {
-  font-family: "Sarabun", sans-serif;
-  font-size: 1.2em;
-}
+$primaryGrad: linear-gradient(#efefbb, #d4d3dd);
+$secondaryGrad: linear-gradient(#ffeeee, #ddefbb);
+$focusGrad: linear-gradient(#f857a6, #ff5858);
+$headerFont: "Noto Serif SC", serif;
+$headerSize: 2em;
+$paraFont: "Sarabun", sans-serif;
+$paraSize: 1.2em;

@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+h1, .job-title {
+    font-family: 'Noto Serif SC', serif;
+
+}
+
+job-title {
+    line-height: 50px;
+}
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 0px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.flex-container {
+    max-width: 900px;
+    padding: 0px;
+    margin: 15px;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+  .flex-item h1 {
+      margin: 0px;
+  }
+
+  .flex-item {
+    width: 600px;
+    height: 127px;
+    max-height: 127px;
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .image {
+    background-image: url(../../images-about/coming-soon.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 165px;
+    height: 127px;
+    margin-right: 50px;
+    border-radius: 20px;
+  }

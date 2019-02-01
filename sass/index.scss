@@ -1,1 +1,12 @@
-@import url("./base/variables.css");
+@import './base/variables.scss';
+@import './base/layout.scss';
+@import './base/mixins.scss';
+
+// Components 
+@import './components/cards.scss';
+@import './components/footer.scss';
+@import './components/header.scss';
+@import './components/hero.scss';
+
+//Pages
+@import './pages/home.scss';

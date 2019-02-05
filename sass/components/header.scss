@@ -1,0 +1,10 @@
+@import url("./base/variables.scss");
+
+.navbackground {
+  background: $primaryGrad;
+  height: 30vh;
+  width: 100%;
+  margin: 0;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}

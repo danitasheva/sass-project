@@ -4,81 +4,71 @@
 * {
     box-sizing: border-box;
 }
-
 .wrapper {
     width: $wrapper-width;
     margin: 0 auto;
     max-width: 1000px;
   }
-
+h1 {
+    text-align: center;
+}
 a {
     text-decoration: none;
     color: black;
 }
 .main-container {
     margin: 80px auto;
-    // background: $primaryGrad;
-}
-
-.card {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 80px;
-}
-
-.img-container {
-    width: 40%;
-    background-image: url();
-}
-
-.img-container img {
-    width: 100%;
-    border-radius: 20px;
-}
-.card-info {
-    width: 60%;
-    padding: 0 30px;
-    
-    // background: lightgray;
 }
 .title {
     font-family: $headerFont;
     font-size: $headerSize;
     text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 80px;
 }
-.blog-title {
-    font-family: $headerFont;
-    font-size: $headerSize;
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0;
 
-    text-transform: capitalize;
-    margin-top: 0;
-}
-.date {
-    font-family: $paraFont;
-    font-size: $paraSize;    
-
-    text-transform: capitalize;
-}
-.para {
-    font-family: $paraFont;
-    font-size: $paraSize;  
-    color: black;  
+    .img-container {
+        width: 40%;
+        }
+    
+    .img-container img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .card-info {
+        width: 60%;
+        padding: 0 30px;
+    }
+    .blog-title {
+        @extend .title;
+        text-align: left;
+        margin-top: 0;
+    }
+    .para {
+        font-family: $paraFont;
+        font-size: $paraSize;  
+        color: black;  
+    }
+    .date {
+        @extend .para;
+        text-transform: capitalize;
+    }
 }
 
 @media (max-width: 1200px ) {
     .card {
         flex-direction: column;
-    }
-    .img-container {
-        width: 100%;
-    }
-    .card-info {
-        width: 100%;
-    }
-    .blog-title {
-        margin-top: 30px;
+        .img-container {
+            width: 100%;
+        }
+        .card-info {
+            width: 100%;
+        }
+        .blog-title {
+            margin-top: 30px;
+        }
     }
 }

@@ -1,0 +1,36 @@
+@import "../base/variables";
+
+.footerbackground {
+  background: $primaryGrad;
+  height: 20vh;
+  width: 100%;
+  margin: 0;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 50%, 0px 0px);
+}
+
+.footer {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 1.4em;
+}
+
+.footer-links {
+  margin: 0, auto;
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  margin-top: 50px;
+}

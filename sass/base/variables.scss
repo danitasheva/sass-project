@@ -1,11 +1,10 @@
-$wrapper-width: 80%;
 
+$wrapper-width: 80%;
 $primaryColor: black;
 $secondaryColor: black;
-
-$primaryGrad: linear-gradient(#efefbb, #d4d3dd);
-$secondaryGrad: linear-gradient(#ffeeee, #ddefbb);
-$focusGrad: linear-gradient(#f857a6, #ff5858);
+$primaryGrad: #efefbb;
+$secondaryGrad: #ffeeee;
+$focusGrad: #f857a6;
 
 $headerFont: "Noto Serif SC", serif;
 $headerSize: 2em;

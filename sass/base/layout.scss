@@ -1,0 +1,27 @@
+@import "./variables";
+
+body {
+  margin: 25px;
+}
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Cormorant";
+  font-size: 4em;
+}
+
+h3 {
+  font-family: "Cormorant";
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex-wrap: wrap;
+}

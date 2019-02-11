@@ -1,3 +1,4 @@
+
 @import "../base/variables.scss";
 
 .wrapper {
@@ -45,4 +46,48 @@ img {
 a h5 {
   margin: 40px 40px 40px 40px;
   padding-left: 40px;
+
+h1{
+
+max-width:  100%;
+background-color: grey;
+font-family: sans-serif;
+font-size: 18px;
+display: block;
+
+height: 300px;
+
+margin-bottom: 20px;
+text-align: center;
+
+
+}
+main p {
+
+        max-width:  100%;
+        background-color: blue;
+        font-family: sans-serif;
+        font-size: 18px;
+        display: block;
+        
+        height: 500px;
+        
+        margin-bottom: 20px;
+        text-align: center;
+        
+        
+
+}
+footer h1{
+
+    max-width:  100%;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: block;
+    
+    height: 300px;
+    
+    margin-bottom: 20px;
+    text-align: center;
 }

@@ -1,0 +1,41 @@
+@import "../base/variables.scss";
+@import "../base/mixins.scss";
+@import "../base/variables";
+@import "./header";
+@import "./footer";
+@import "../base/layout";
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0;
+
+  .img-container {
+    width: 40%;
+  }
+
+  .img-container img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .card-info {
+    width: 90%;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    flex-direction: column;
+    .img-container {
+      width: 100%;
+    }
+    .card-info {
+      width: 100%;
+    }
+    .blog-title {
+      margin-top: 30px;
+    }
+  }
+}

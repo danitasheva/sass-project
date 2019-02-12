@@ -25,11 +25,13 @@ a {
 h1 {
   font-family: $headerFont;
   font-size: $headerSize;
+  color: black;
 }
 
 h2 {
   font-family: $headerFont;
   font-size: 1.5em;
+  color: black;
 }
 
 p {
@@ -70,4 +72,18 @@ p {
 
 .img-container img {
   padding-left: 15px;
+}
+
+.icon {
+  margin-right: 25px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex-wrap: wrap;
 }

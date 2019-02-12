@@ -34,3 +34,9 @@ footer a {
 .footer-links a {
   margin-top: 50px;
 }
+
+.footer-icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
